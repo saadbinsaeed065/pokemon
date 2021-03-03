@@ -1,0 +1,197 @@
+body{
+    text-align: center;
+    padding: 10px;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+}
+.two ul{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    margin-left:220px ;
+}
+  a{
+     display: block;
+    padding: 5px;
+    text-decoration: none;
+    }
+.one a:hover{
+    background-color:aqua;
+}
+.one{
+    width: 1350px;
+    height: 70px;
+    background-color: #e6e6e6;
+    top: 0px;
+}
+.two a{
+    display: block;
+   padding: 5px;
+   width: 120px;
+   height: 70px;
+   text-decoration: none;
+   }
+.two{
+    width: 1350px;
+    height: 70px;
+    background-color:  white;
+    top: 0px;
+}
+.home:hover{
+    background-color:grey;
+    text-transform: uppercase;
+   
+}
+.pok:hover{
+    background-color:orangered;
+    text-transform: uppercase;
+   
+}
+.video:hover{
+    background-color:orange;
+    text-transform: uppercase;
+   
+}
+.trading:hover{
+    background-color:yellowgreen;
+    text-transform: uppercase;
+   
+}
+.tv:hover{
+    background-color:green;
+    text-transform: uppercase;
+   
+}
+.play:hover{
+    background-color:skyblue;
+    text-transform: uppercase;
+   
+}
+.news:hover{
+    background-color:blue;
+    text-transform: uppercase;
+   
+}
+.three a{
+    text-decoration: none;
+    text-align: justify;
+    padding: 15px;
+    
+}
+.three{
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+}
+.three:hover{
+    background-color: lightcoral ;
+}
+.four{
+    display: inline-block;
+}
+.green:hover{
+background-color: #006600;
+}
+.pink:hover{
+    background-color: #990099;
+    }
+.black:hover{
+        background-color: #0d0d0d;
+        }
+.containerone{
+    
+    width: 1450px;
+    height: 400px;
+    overflow: hidden;
+}
+.boxone{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background-color: #404040;
+    border: 3px solid;
+    float: left;
+    overflow: hidden;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.boxone:hover{
+    border-color:blue;
+}
+.five{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: #262626;
+   margin-left: 1000px;
+   border-radius: 10px;
+   color: white;
+   padding: 10px;
+}
+.containertwo{
+    margin: auto;
+    width: 900px;
+    height: 1000px;
+    background-color: white;
+}
+.boxtwo{
+    width: 290px;
+    height: 350px;
+   overflow: hidden;
+    float: left;
+    margin: 5px;
+    border: 5px solid;
+    border-radius: 10px;
+}
+
+.boxtwo:hover{
+    border-color: chartreuse;
+}
+h2{
+    text-transform: capitalize;
+}
+a .boxtwo{
+    color: black;
+    
+}
+.boxtwo a{
+    display: inline;
+}
+.bottom{
+    
+    width: 1350px;
+    height: 400px;
+    background-color:#333333 ;
+    margin-bottom: fixed;
+   
+}
+.boxthree{
+    width: 300px;
+    height: 300px;
+    background-color: #333333;
+    float: left;
+    margin: 5px;
+    text-align: left;
+    
+}
+.boxthree a{
+    color: #808080;
+    padding: 10px;
+}
+
+.boxthree :hover{
+    color: white;
+}
+.boxthree a{
+    display: inline;
+}
+
+@media screen and (max-width:600px){
+    body{
+        width: 100%;
+    }
+}
